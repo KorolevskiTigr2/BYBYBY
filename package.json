@@ -1,0 +1,16 @@
+{
+   "name": "korolevski-chasi",
+   "version": "0.0.0",
+   "description": "A time conversion project",
+   "main": "",
+   "private": true,
+   "scripts": {
+     "test": "",
+   },
+   "dependencies": {},
+   "devDependencies": {},
+   "engines": {
+     "node": "16.15.1",
+     "npm": "8.11.0"
+   }
+}
