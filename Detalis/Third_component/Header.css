@@ -15,8 +15,8 @@ body {
     color: purple;
   }
   .Button {
-    border-radius: 15%
     background-color: white;
+    border-radius: 15%
     padding: 5px 15px 0px 15px;
     position: relative;
     top: -4.5em;
