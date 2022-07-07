@@ -1,0 +1,47 @@
+body {
+  background-color: orange;
+}
+
+#Text {
+  text-align: center;
+  color: purple;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#Block {
+  background-color: #8e98ab;
+  width: 50%;
+  margin: 10% auto;
+  padding: 10%;
+}
+
+#Left-block {
+  background-color: orange;
+  width: 30%;
+  padding: 5%;
+  border-radius: 20%;
+  border: solid white;
+  position: relative;
+  bottom: -3em;
+  left: -2em;
+  display: inline-block;
+  margin-left: 2.5em;
+}
+
+#Right-block {
+  background-color: orange;
+  width: 30%;
+  padding: 5%;
+  border-radius: 20%;
+  border: solid white;
+  position: relative;
+  bottom: -3em;
+  left: -2em;
+  display: inline-block;
+}
+
+#Right-block:last-child {
+  display: inline-block;
+  margin-left: 15px;
+}
