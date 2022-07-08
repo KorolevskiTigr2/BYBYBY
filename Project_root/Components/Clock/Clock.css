@@ -1,0 +1,26 @@
+body {
+    background-color: orange;
+  }
+  #block {
+    background-color: white;
+    width: 40%;
+    margin: 10% auto;
+    border-radius: 2em;
+  }
+  .section {
+    padding: 5%;
+    text-align: center;
+  }
+  .section > div {
+    display: inline-block;
+    font-size: 3em;
+    font-weight: 800;
+  }
+  .section > div::after{
+    content: ":"; 
+  }
+  .section > div:last-child:after{
+    content: "AM";
+    padding: 5%;
+  }
+  
