@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: orange;
+}
+
+.clock-dial-wrapper {
+  background-color: #e5edfb;
+  width: 400px;
+  height: 400px;
+  margin: 80px auto;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 5px 5px 15px rgb(0 0 0 / 15%);
+}
+
+.clock-dial-wrapper .clock-inner-large-dial {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px rgb(0 0 0 / 15%);
+  z-index: 10;
+}
+
+.clock-dial-wrapper .time-marks-wrapper {
+  position: relative;
+}
+
+.time-marks-wrapper .time-mark-container {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}
+
+.time-marks-wrapper .time-mark {
+  background-color: #ffffff;
+  border-radius: 3px;
+  width: 6px;
+  height: 20px;
+  position: absolute;
+  left: 197px;
+  top: 15px;
+}
+
+.time-marks-wrapper .time-mark.promoted {
+  background-color: #a3aab4;
+}
+
+.time-marks-wrapper > .time-mark-container.rotate-0-degrees {
+  transform: rotate(90deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-10-degrees {
+  transform: rotate(10deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-20-degrees {
+  transform: rotate(20deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-30-degrees {
+  transform: rotate(60deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-40-degrees {
+  transform: rotate(40deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-50-degrees {
+  transform: rotate(50deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-60-degrees {
+  transform: rotate(30deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-70-degrees {
+  transform: rotate(70deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-80-degrees {
+  transform: rotate(80deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-90-degrees {
+  transform: rotate(0deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-100-degrees {
+  transform: rotate(-10deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-110-degrees {
+  transform: rotate(-20deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-120-degrees {
+  transform: rotate(-30deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-130-degrees {
+  transform: rotate(-40deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-140-degrees {
+  transform: rotate(-50deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-150-degrees {
+  transform: rotate(-60deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-160-degrees {
+  transform: rotate(-70deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-170-degrees {
+  transform: rotate(-80deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-180-degrees {
+  transform: rotate(-90deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-190-degrees {
+  transform: rotate(-100deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-200-degrees {
+  transform: rotate(-110deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-210-degrees {
+  transform: rotate(-120deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-220-degrees {
+  transform: rotate(-130deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-230-degrees {
+  transform: rotate(-140deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-240-degrees {
+  transform: rotate(-150deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-250-degrees {
+  transform: rotate(-160deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-260-degrees {
+  transform: rotate(-170deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-270-degrees {
+  transform: rotate(-180deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-280-degrees {
+  transform: rotate(-190deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-290-degrees {
+  transform: rotate(-200deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-300-degrees {
+  transform: rotate(-210deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-310-degrees {
+  transform: rotate(-220deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-320-degrees {
+  transform: rotate(-230deg);
+}
+.time-marks-wrapper > .time-mark-container.rotate-330-degrees {
+  transform: rotate(-240deg);
+}
+
+.time-marks-wrapper > .time-mark-container.rotate-340-degrees {
+  transform: rotate(-250deg);
+}
+
+.time-marks-wrapper > .time-mark-container.rotate-350-degrees {
+  transform: rotate(-260deg);
+}
+
+.clock-dial-wrapper .clock-inner-smaller-dial {
+}
