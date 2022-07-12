@@ -1,0 +1,62 @@
+body {
+  background-color: orange;
+}
+
+#app-chrome {
+  background-color: white;
+  width: 50%;
+  margin: 10% auto;
+  border-radius: 2em;
+}
+
+#app-header-wrapper {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: 0.125em solid rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+}
+
+#app-content-wrapper {
+  padding: 1em 2em;
+}
+
+#app-footer-wrapper {
+  background-color: #442343;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app-footer-wrapper .button.action {
+  margin-top: -3.8em;
+  position: relative;
+  align-self: center;
+  color: white;
+  border-radius: 50%;
+  border-width: 0.5em;
+  border-color: white;
+  border-style: solid;
+  background: linear-gradient(45deg, #fc6e74, #fd3033);
+  width: 2em;
+  height: 2em;
+  padding: 2em;
+}
+
+#app-footer-wrapper .button.action > span {
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2em;
+  line-height: 2em;
+  height: 2em;
+  width: 2em;
+  margin-top: -1em;
+  margin-left: -1em;
+}
